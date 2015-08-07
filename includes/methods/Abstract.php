@@ -39,8 +39,6 @@ abstract class methods_Abstract
     $products = null;
     
     foreach ($order_wrapper->commerce_line_items as $delta => $line_item_wrapper) {
-      // Extract the unit price total value array.
-      $unit_price = $line_item_wrapper->commerce_unit_price->value();
       $product_id = $line_item_wrapper->commerce_product->raw();
       $product = commerce_product_load($product_id);
 
