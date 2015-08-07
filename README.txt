@@ -36,5 +36,4 @@ Success url: example.com/commerce_checkoutpayment/success
 Maintainers
 ===========
 Current maintainers:
-* Dhiraj Gangoosirdar  - dhiraj.gangoosirdar@checkout.com
 * Jason Footing  - https://www.drupal.org/user/3217125/
